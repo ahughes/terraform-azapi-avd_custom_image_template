@@ -1,3 +1,10 @@
+/**
+* # Azure Virtual Desktop Custom Image Template Module
+*
+* ## Overview
+* This module creates an [AVD custom image template](https://learn.microsoft.com/en-us/azure/virtual-desktop/custom-image-templates) using the AzAPI provider.
+* It's essentially the Terraform replacement for the portal/UI steps documented [here](https://learn.microsoft.com/en-us/azure/virtual-desktop/create-custom-image-templates).
+*/
 locals {
   customizations = concat(
     # Files
